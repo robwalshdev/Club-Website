@@ -151,20 +151,65 @@ p {
 }
 
 .page-footer{
-    background-color: #6F1E51;
+    padding-top: 20px;
+    background-color: #fff;
 }
 
 .page-footer h5{
-    color: #fff;
+    color: #6F1E51;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .page-footer a {
-    color: #fff;
+    color: #6F1E51;
 }
 
 .page-footer a:hover {
-    color: #fff;
+    color: #6F1E51;
     text-decoration: none;
+}
+
+.section-divider-white{
+    background-color:#6F1E51;
+}
+
+.primary-comments{
+    background-color: #6F1E51;
+}
+
+.primary-comments h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#postComment{
+    margin-bottom: 5%;
+}
+
+#commentsList{
+    text-align: center;
+    color: #6F1E51;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+#commentsList small{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.commentBox{
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
 }
